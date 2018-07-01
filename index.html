@@ -20,20 +20,20 @@
 			<div class="input-group mb-3 input">
 				<input type="text" class="form-control input1" placeholder="Type a Number" aria-label="Recipient's username" aria-describedby="basic-addon2">
 			<div class="input-group-append">
-				<button class="btn1 " type="button"><i class="fas fa-plus" style="color: #fd7272;"></i	></button>
+				<button class="btn1 " type="button" onclick="number()"><i class="fas fa-plus" style="color: #fd7272;"></i	></button>
 			</div>
 			</div>
 		
-			<div class="alert alert-result" role="alert" style="color: #3e774b;">
+			<div class="alert alert_result" role="alert" style="color: #3e774b;">
  			Result  = --
 			</div>
 		
 			<div class="alert alert-shownumber" role="alert">
   				
 			</div>
-				<input class="btn btn2" type="button" value="Sum">
-				<input class="btn btn2" type="submit" value="Average">
-				<input class="btn btn2" type="reset" value="Product">
+				<button class="btn btn2 sum" type="button" onclick="sum()">Sum</button>
+				<button class="btn btn2 avg" onclick="avg()">Average</button>
+				<button class="btn btn2 pro" onclick="product()">Product</button>
 				<br>
 				<br>
 				<button type="button" class="btn btn-lg btn-clear">Clear All</button>

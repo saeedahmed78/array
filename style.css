@@ -37,7 +37,7 @@ h1{
 	padding: 15px;
 	border-radius: 5px !important;
 }
-.alert-result{
+.alert_result{
 	background-color: #d4edda;
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -46,6 +46,8 @@ h1{
 .alert-shownumber{
 	background-color: #f8d7da;
 	height: 200px;
+	color: blue;
+
 }
 
 .btn2{
