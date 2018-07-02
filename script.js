@@ -16,7 +16,8 @@ function sum(){
 }
 function avg(){
 	var div = document.querySelector(".alert_result");
-		avg = eval(arayyy.join('+')+('/arayyy.length'));
+		sum =  eval(arayyy.join('+')); 	
+		avg = sum/arayyy.length;
 	div.innerHTML = avg;
 	
 }
